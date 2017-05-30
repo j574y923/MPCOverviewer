@@ -1,0 +1,19 @@
+/*std::vector<selectionStruct> empty_comp_size_one;
+							empty_comp_size_one.push_back(selectionStruct(0, 'a', 'a'));
+
+							define_clipboard(new_tab, copypastetool, empty_comp_size_one, clipboard, clipboardlengths_vec, pastingindex_vec);
+
+							define_clipboard(tab_vec.at(current_tab + tab_offset), copypastetool, rest_of_composition, clippy, clippylengths_vec, clippypasting_vec);
+							move_selection(tab_vec, current_tab, tab_offset, copypastetool, clippy, pastingindex + pastingindex_vec.back() - pastingindex_vec.at(0) + clipboardlengths_vec.back(), clippylengths_vec, clippypasting_vec,
+								new_tab, tab_text_vec, new_tab_text, current_y, window, rest_of_composition);
+							paste_check_bounds(tab_vec, current_tab, tab_offset, copypastetool, clipboard, pastingindex, clipboardlengths_vec, pastingindex_vec,
+								new_tab, tab_text_vec, new_tab_text, current_y, window);
+
+							define_clipboard_v(new_tab, copypastetool, empty_comp_size_one, clipboard, clipboardlengths_vec, pastingindex_vec);
+							define_clipboard_v(tab_vec.at(current_tab + tab_offset), copypastetool, rest_of_composition, clippy, clippylengths_vec, clippypasting_vec);
+							move_selection_v(tab_vec, current_tab, tab_offset, copypastetool, clippy, pastingindex + pastingindex_vec.back() - pastingindex_vec.at(0) + clipboardlengths_vec.back(), clippylengths_vec, clippypasting_vec,
+								new_tab, tab_text_vec, new_tab_text, current_y, window, rest_of_composition);
+							paste_selection_v(tab_vec.at(current_tab + tab_offset), copypastetool, clipboard, pastingindex, clipboardlengths_vec, pastingindex_vec);
+							tab_vec.at(current_tab + tab_offset).drawcomposition(true, window);
+
+							clear_clipboard(clipboard);*/

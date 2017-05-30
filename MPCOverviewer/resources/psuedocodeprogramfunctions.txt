@@ -1,0 +1,89 @@
+
+	/*copypaste copypastetool;
+	int clipboardsize;
+	std::vector<char>* clipboard = copypastetool.copy(composition, 5, 8, 'd', 'h', "abc", clipboardsize);	
+	std::cout << std::endl;
+	std::cout << clipboardsize << std::endl;
+	for (int i = 0; i < 4; i++)
+	{
+		for (int j = 0; j < clipboard[i].size(); j++)
+		{
+			std::cout << clipboard[i].at(j);
+		}
+		std::cout << std::endl;
+	}
+	std::cout << std::endl;
+	copypastetool.remove(composition, 8, 11, 'd', 'h', "abc");
+	for (int i = 4; i <= 7; i++)
+	{
+		for (int j = 0; j < composition[i].size(); j++)
+		{
+			std::cout << composition[i].at(j);
+		}
+		std::cout << std::endl;
+	}
+	std::cout << std::endl;
+	copypastetool.paste(composition, 4, clipboard, 4);//note: this has been done and everything appears to work->//NOTE STILL NEED TO TEST ABOVE FUNCS WITH EMPTY COMPOSITIONS
+	for (int i = 4; i <= 7; i++)
+	{
+		for (int j = 0; j < composition[i].size(); j++)
+		{
+			std::cout << composition[i].at(j);
+		}
+		std::cout << std::endl;
+	}
+	*/
+	//NOTE: THIS PASTES WHATS UNDERNEATH IF THERE ARE TWO NOTES ON TOP OF EACH OTHER FIRST
+
+	//copypaste* copypastetool = new copypaste();
+	//while(!exit)
+
+		//region select CREATES ARRAY which specifies range of measures and which notes then all the below happens
+			//NEED BOTH REGION AND CLIPBOARD VARIABLES IN MAIN
+				//OVERWRITE THE VALUES IN THESE VARIABLES WHEN:
+					//[FOR REGION] ANOTHER SELECT WITHOUT CTRL OCCURS
+					//[FOR CLIPBOARD] ANOTHER COPY WITHOUT AN ADDITIONAL REGION SELECTED OCCURS
+
+		//if ctrl + c
+			//copypastetool->copy()
+			//dont enable undo flag
+		//else if ctrl + x
+			//copypastetool->copy()
+			//copypastetool->remove()
+			//enable undo flag
+		//else if ctrl + v
+			//copypastetool->paste()
+			//enable undo flag
+		//else if del
+			//copypastetool->remove()
+			//enable undo flag
+		//else if drag region
+			//temp_clipboard = copypastetool.copy()
+			//copypastetool.remove()
+			//copypastetool.paste(with temp_clipboard and place to move (aka pastingindex))
+			//delete tempclipboard
+			//enable undo flag
+		//else if r
+			//temp_clipboard = copypastetool.copy()
+			//copypastetool.remove()
+			//copypastetool.replace(with temp_clipboard and notes to replace)
+			//copypastetool.paste(with temp_clipboard and same pastingindex)
+			//delete tempclipboard
+			//enable undo flag
+		//else if ctrl + z
+			//undoarraytool->undo()
+			//dont enable undo flag
+		//else if ctrl + y
+			//undoarraytool->redo()
+			//dont enable undo flag
+		//else if ctrl + s
+			//save output
+			//dont enable undo flag
+		//else if ctrl + select another region
+			//add onto array with next region's info
+
+		//(after gone through all above conditions and undo flag enabled)
+			//undoarraytool->progress()
+			//disable undo flag
+
+		//if didnt select region then user can just place, erase individual notes, use gui, etc.

@@ -1,0 +1,2 @@
+Directory:C:\Users\Yang\Documents\Mario Paint Composer PC\Prefs
+Number of Undos:30

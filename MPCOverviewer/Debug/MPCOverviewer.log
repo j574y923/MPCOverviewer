@@ -1,0 +1,149 @@
+﻿Build started 5/23/2015 1:14:16 PM.
+     1>Project "C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\MPCOverviewer\MPCOverviewer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\/SFML-2.2/include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MPCHelperWindows.cpp MPCOverviewer.cpp
+         MPCHelperWindows.cpp
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemap.hpp(40): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemap.hpp(41): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemap.hpp(42): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemap.hpp(43): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemap.hpp(46): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemap.hpp(47): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemap.hpp(48): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemap.hpp(49): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(53): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(54): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(55): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(56): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(65): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(66): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(67): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(68): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(71): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(72): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(73): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(74): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(96): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(97): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(98): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(99): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(105): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(106): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(107): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(108): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(127): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(128): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(129): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(130): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(133): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(134): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(135): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(136): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(146): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(147): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(148): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(149): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(161): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(162): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(163): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(164): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(168): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(169): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(170): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(173): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(174): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(175): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(176): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(180): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(181): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(182): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(238): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(239): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(240): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(241): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(263): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(264): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(265): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(266): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(271): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(272): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(273): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(274): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(290): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(291): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(292): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(293): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(297): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(298): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\tilemapcomposition.hpp(299): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\undovector.hpp(32): warning C4101: 'obj' : unreferenced local variable
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\undovector.hpp(73): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(99): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(107): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(160): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(174): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(183): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(193): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(244): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(257): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(260): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(269): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(322): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(330): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(374): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(375): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(384): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(385): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(407): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(410): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(431): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(432): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(441): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(344): warning C4101: 'obj' : unreferenced local variable
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(458): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(464): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(507): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(516): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(526): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(545): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(554): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(642): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(1250): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(1284): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(1336): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(1338): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(1340): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(1342): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(1344): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(1349): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\yang\documents\visual studio 2013\projects\mpcoverviewer04_26_2015\mpcoverviewer\mpchelperwindows.cpp(1349): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         MPCOverviewer.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\Debug\MPCOverviewer.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\/SFML-2.2/lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" "sfml-main-d.lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\Debug\MPCOverviewer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\Debug\MPCOverviewer.lib" /MACHINE:X86 /FORCE:MULTIPLE Debug\MPCHelperWindows.obj
+         Debug\MPCOverviewer.obj
+         Debug\copypaste.obj
+         Debug\tab.obj
+         Debug\TileMap.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+     1>MPCHelperWindows.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>MPCOverviewer.obj : warning LNK4006: "public: __thiscall undovector::undovector(class std::vector<char,class std::allocator<char> > *)" (??0undovector@@QAE@PAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>MPCOverviewer.obj : warning LNK4006: "public: bool __thiscall undovector::change(class std::vector<char,class std::allocator<char> > *)" (?change@undovector@@QAE_NPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>MPCOverviewer.obj : warning LNK4006: "public: void __thiscall undovector::eraseredo(void)" (?eraseredo@undovector@@QAEXXZ) already defined in MPCHelperWindows.obj; second definition ignored
+     1>MPCOverviewer.obj : warning LNK4006: "public: void __thiscall undovector::progress(class std::vector<char,class std::allocator<char> > *)" (?progress@undovector@@QAEXPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>MPCOverviewer.obj : warning LNK4006: "public: void __thiscall undovector::redo(class std::vector<char,class std::allocator<char> > *)" (?redo@undovector@@QAEXPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>MPCOverviewer.obj : warning LNK4006: "public: void __thiscall undovector::undo(class std::vector<char,class std::allocator<char> > *)" (?undo@undovector@@QAEXPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>tab.obj : warning LNK4006: "public: __thiscall undovector::undovector(class std::vector<char,class std::allocator<char> > *)" (??0undovector@@QAE@PAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>tab.obj : warning LNK4006: "public: bool __thiscall undovector::change(class std::vector<char,class std::allocator<char> > *)" (?change@undovector@@QAE_NPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>tab.obj : warning LNK4006: "public: void __thiscall undovector::eraseredo(void)" (?eraseredo@undovector@@QAEXXZ) already defined in MPCHelperWindows.obj; second definition ignored
+     1>tab.obj : warning LNK4006: "public: void __thiscall undovector::progress(class std::vector<char,class std::allocator<char> > *)" (?progress@undovector@@QAEXPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>tab.obj : warning LNK4006: "public: void __thiscall undovector::redo(class std::vector<char,class std::allocator<char> > *)" (?redo@undovector@@QAEXPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>tab.obj : warning LNK4006: "public: void __thiscall undovector::undo(class std::vector<char,class std::allocator<char> > *)" (?undo@undovector@@QAEXPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\Debug\MPCOverviewer.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+         MPCOverviewer.vcxproj -> C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\Debug\MPCOverviewer.exe
+     1>Done Building Project "C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\MPCOverviewer\MPCOverviewer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.74

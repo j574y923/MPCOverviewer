@@ -1,0 +1,43 @@
+﻿Build started 5/15/2015 4:46:57 PM.
+     1>Project "C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\MPCOverviewer\MPCOverviewer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\/SFML-2.2/include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt copypaste.cpp
+         copypaste.cpp
+     1>copypaste.cpp(15): warning C4018: '<=' : signed/unsigned mismatch
+     1>copypaste.cpp(33): warning C4018: '<=' : signed/unsigned mismatch
+     1>copypaste.cpp(123): warning C4018: '<=' : signed/unsigned mismatch
+     1>copypaste.cpp(197): warning C4018: '<' : signed/unsigned mismatch
+     1>copypaste.cpp(298): warning C4114: same type qualifier used more than once
+     1>copypaste.cpp(312): warning C4018: '<' : signed/unsigned mismatch
+     1>copypaste.cpp(342): warning C4018: '<' : signed/unsigned mismatch
+     1>copypaste.cpp(417): warning C4018: '<=' : signed/unsigned mismatch
+     1>copypaste.cpp(429): warning C4018: '<=' : signed/unsigned mismatch
+     1>copypaste.cpp(445): warning C4018: '<' : signed/unsigned mismatch
+     1>copypaste.cpp(488): warning C4018: '<=' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\Release\MPCOverviewer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\/SFML-2.2/lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" "sfml-main-d.lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\Release\MPCOverviewer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\Release\MPCOverviewer.lib" /MACHINE:X86 /SAFESEH /FORCE:MULTIPLE Release\MPCHelperWindows.obj
+         Release\MPCOverviewer.obj
+         Release\copypaste.obj
+         Release\tab.obj
+         Release\TileMap.obj
+     1>MPCOverviewer.obj : warning LNK4006: "public: bool __thiscall undovector::change(class std::vector<char,class std::allocator<char> > *)" (?change@undovector@@QAE_NPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>MPCOverviewer.obj : warning LNK4006: "public: void __thiscall undovector::eraseredo(void)" (?eraseredo@undovector@@QAEXXZ) already defined in MPCHelperWindows.obj; second definition ignored
+     1>MPCOverviewer.obj : warning LNK4006: "public: void __thiscall undovector::progress(class std::vector<char,class std::allocator<char> > *)" (?progress@undovector@@QAEXPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>MPCOverviewer.obj : warning LNK4006: "public: void __thiscall undovector::redo(class std::vector<char,class std::allocator<char> > *)" (?redo@undovector@@QAEXPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>MPCOverviewer.obj : warning LNK4006: "public: void __thiscall undovector::undo(class std::vector<char,class std::allocator<char> > *)" (?undo@undovector@@QAEXPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>MPCOverviewer.obj : warning LNK4006: "public: __thiscall undovector::undovector(class std::vector<char,class std::allocator<char> > *)" (??0undovector@@QAE@PAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>tab.obj : warning LNK4006: "public: bool __thiscall undovector::change(class std::vector<char,class std::allocator<char> > *)" (?change@undovector@@QAE_NPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>tab.obj : warning LNK4006: "public: void __thiscall undovector::eraseredo(void)" (?eraseredo@undovector@@QAEXXZ) already defined in MPCHelperWindows.obj; second definition ignored
+     1>tab.obj : warning LNK4006: "public: void __thiscall undovector::progress(class std::vector<char,class std::allocator<char> > *)" (?progress@undovector@@QAEXPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>tab.obj : warning LNK4006: "public: void __thiscall undovector::redo(class std::vector<char,class std::allocator<char> > *)" (?redo@undovector@@QAEXPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>tab.obj : warning LNK4006: "public: void __thiscall undovector::undo(class std::vector<char,class std::allocator<char> > *)" (?undo@undovector@@QAEXPAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>tab.obj : warning LNK4006: "public: __thiscall undovector::undovector(class std::vector<char,class std::allocator<char> > *)" (??0undovector@@QAE@PAV?$vector@DV?$allocator@D@std@@@std@@@Z) already defined in MPCHelperWindows.obj; second definition ignored
+     1>C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\Release\MPCOverviewer.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+         Generating code
+         Finished generating code
+         MPCOverviewer.vcxproj -> C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\Release\MPCOverviewer.exe
+     1>Done Building Project "C:\Users\Yang\Documents\Visual Studio 2013\Projects\MPCOverviewer04_26_2015\MPCOverviewer\MPCOverviewer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.39

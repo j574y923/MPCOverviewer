@@ -1,0 +1,191 @@
+std::vector<char>* copypaste::specialcopy(const std::vector<char>* composition, int beginningindex, int endingindex, char staffbeg, char staffend, const std::string &notes, int selectionlength, const std::string &special_filter){
+
+	std::vector<char>* selection = new std::vector<char>[selectionlength];
+
+	std::string spec_notes_tracker = "";//this will compare special_filter with the measure to see if they are the same
+	spec_notes_tracker.reserve(15);
+	for (unsigned int i = 1; i < special_filter.size() - 1; ++i)//ignore volume for now
+	{
+		if (special_filter.at(i) != '+')
+		{
+			spec_notes_tracker.push_back(special_filter.at(i));
+			++i;
+			spec_notes_tracker.push_back(special_filter.at(i));
+			if (special_filter.at(i + 1) != '+')//flat,sharp, or natural
+			{
+				++i;
+				spec_notes_tracker.push_back(special_filter.at(i));
+			}
+			else
+				spec_notes_tracker.push_back('~');
+		}
+	}
+	unsigned int spec_check = spec_notes_tracker.size();
+	std::vector<int> wrong_notes_tracker;
+	wrong_notes_tracker.reserve(10);
+
+	for (unsigned int i = beginningindex; i <= endingindex; ++i)
+	{
+		if (!composition[i].empty())
+		{
+			for (unsigned int j = 0; j < composition[i].size() - 1; ++j)
+			{
+				if (composition[i].at(j) != '+')
+				{
+					for (unsigned int k = spec_notes_tracker.size() - spec_check; k < spec_notes_tracker.size(); k += 3)
+					{
+						if (composition[i].at(j) == spec_notes_tracker.at(k) && composition[i].at(j + 1) == spec_notes_tracker.at(k + 1))
+						{
+							if (spec_notes_tracker.at(k + 2) != '~')
+							{
+								if (composition[i].at(j + 2) == spec_notes_tracker.at(k + 2))
+								{
+									spec_check -= 3;//one note satisfied
+									spec_notes_tracker.insert(spec_notes_tracker.begin(), spec_notes_tracker.begin() + k, spec_notes_tracker.begin() + k + 3);//move characters over
+									spec_notes_tracker.erase(spec_notes_tracker.begin() + k + 3, spec_notes_tracker.begin() + k + 6);
+									j += 3;
+									break;
+								}
+							}
+							else
+							{
+								spec_check -= 3;//one note satisfied
+								spec_notes_tracker.insert(spec_notes_tracker.begin(), spec_notes_tracker.begin() + k, spec_notes_tracker.begin() + k + 3);//move characters over
+								spec_notes_tracker.erase(spec_notes_tracker.begin() + k + 3, spec_notes_tracker.begin() + k + 6);
+								j += 2;
+								break;
+							}
+						}
+						else
+						{
+							wrong_notes_tracker.push_back(j);
+							if (composition[i].at(j + 2) != '+')
+								wrong_notes_tracker.push_back(2);//skip 2 indices when found wrong_note
+							else
+								wrong_notes_tracker.push_back(1);//skip 1 index when found wrong_note
+						}
+					}
+				}
+			}
+
+			if (spec_check == 0)
+			{
+				if (special_filter.back() != '+')//volume must be considered
+				{
+					if (composition[i].back() == special_filter.back())//satisfies special measure
+					{
+						goto Satisfies;
+					}
+					//else//volume not the same, does not satisfy special measure
+				}
+				else//satisfies special measure
+				{
+				Satisfies:
+
+					if (!wrong_notes_tracker.empty())//make sure not to copy the wrong notes
+					{
+						for (unsigned int l = 0; l < composition[i].size(); ++l)
+						{
+							if (!wrong_notes_tracker.empty())
+							{
+								if (l == wrong_notes_tracker.at(0))
+								{
+									l += wrong_notes_tracker.at(1);
+									wrong_notes_tracker.erase(wrong_notes_tracker.begin(), wrong_notes_tracker.begin() + 2);
+								}
+							}
+							else
+								selection[i - beginningindex].push_back(composition[i].at(l));
+						}
+					}
+					else//no wrong notes on measure so copy it all
+					{
+						for (unsigned int l = 0; l < composition[i].size(); ++l)
+						{
+							selection[i - beginningindex].push_back(composition[i].at(l));
+						}
+					}
+				}
+			}
+			//else//does not satisfy special measure
+			spec_check = spec_notes_tracker.size();
+			/*
+			if (special_filter.at(0) == '&')//AND
+			{
+				bool AND = false;
+				if (!selection[i - beginningindex].empty())
+				{
+					for (unsigned int m = 0; m < selection[i - beginningindex].size() - 1; ++m)
+					{
+						if (selection[i - beginningindex].at(m) != '+')
+						{
+							for (unsigned int n = 0; n < notes.size(); ++n)//check if any of the filtered notes are in special measure
+							{
+								if (selection[i - beginningindex].at(m) == notes.at(n))
+								{
+									AND = true;//condition satisfied so break out of loop
+									break;
+								}
+							}
+							++m;
+							if (selection[i - beginningindex].at(m + 1) != '+')//flat,sharp
+								++m;
+						}
+						if (AND)//condition satisfied so break out of loop
+							break;
+					}
+					if (!AND && !notes.empty())
+						selection[i - beginningindex].clear();
+				}
+			}
+			else//OR
+			{
+				bool selection_at_i_empty = true;
+				if (!selection[i - beginningindex].empty())
+					selection_at_i_empty = false;
+				unsigned int p = 0;//p is the number of pluses
+				for (unsigned int m = 0; m < composition[i].size() - 1; ++m)
+				{
+					if (composition[i].at(m) != '+')
+					{
+						for (unsigned int n = 0; n < notes.size(); ++n)
+						{
+							if (composition[i].at(m) == notes.at(n))//found a note to filter
+							{
+								selection[i - beginningindex].insert(selection[i - beginningindex].begin(), composition[i].at(m));
+								++m;
+								selection[i - beginningindex].insert(selection[i - beginningindex].begin() + 1, composition[i].at(m));
+								if (composition[i].at(m + 1) != '+')
+								{
+									++m;
+									selection[i - beginningindex].insert(selection[i - beginningindex].begin() + 2, composition[i].at(m));
+									selection[i - beginningindex].insert(selection[i - beginningindex].begin() + 3, '+');
+								}
+								else
+									selection[i - beginningindex].insert(selection[i - beginningindex].begin() + 2, '+');
+								++p;
+							}
+						}
+					}
+				}
+				if (selection_at_i_empty)
+				{
+					for (p; p < 6; ++p)
+					{
+						selection[i - beginningindex].push_back('+');
+					}
+					selection[i - beginningindex].push_back(composition[i].back());
+				}
+				else
+				{
+					for (p; p < 6; ++p)
+					{
+						selection[i - beginningindex].erase(selection[i - beginningindex].end() - 2);
+					}
+				}
+			}
+			*/
+		}
+	}
+	return selection;
+}
