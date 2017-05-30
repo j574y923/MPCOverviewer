@@ -1,4 +1,8 @@
 # MPCOverviewer
+
+# About
+This is a GUI editor for the music sequencing program Mario Paint Composer (2008). The inspiration for this program was the lack of versatile editing tools that MPC came equipped with so this program was written as a supplement. This program uses C++ and the GUI library SFML. Written back in 2015, it was the first major project I coded and had all kinds of horrible code smells but it was a learning experience. Anyway I hope this program can be of use to those who wish to edit Mario Paint Composer song files whether out of hobby or just boredom.
+
 Read LICENSE.txt! I am not responsible for any lost files or damages to your system! I highly recommend backing up your files before using this program! Other than that, enjoy =]
 
 # SETUP
