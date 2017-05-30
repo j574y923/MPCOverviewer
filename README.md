@@ -1,7 +1,7 @@
 # MPCOverviewer
 Read LICENSE.txt! I am not responsible for any lost files or damages to your system! I highly recommend backing up your files before using this program! Other than that, enjoy =]
 
-------------SETUP------------
+# SETUP
 IMPORTANT!!! First of all, find your prefs folder for Mario Paint Composer. This will look something like "C:\Users\J\Documents\MPC\Mario Paint Composer PC\Prefs". 
 
 Then go back to the MPCOverviewer directory and find config.txt. Open that up and change the Directory line: This should be changed to look like "Directory:C:\Users\J\Documents\MPC\Mario Paint Composer PC\Prefs". 
@@ -9,7 +9,7 @@ Then go back to the MPCOverviewer directory and find config.txt. Open that up an
 After all that has been done, you can open MPCOverviewer and the program should open the MarioPaintSongList.txt found in MPC's prefs folder (MarioPaintSongList should exist). Now you can load song and open any of the files on the song list. 
 
 
-------------CONTROLS------------
+# CONTROLS
 SHIFT+R: 
 Region selector. The region selector button should light up when shift+r is pressed. Left click, drag your mouse, then release left click on the composition to define a region of notes you want to select. NOTE: The rectangular region does not show as you drag. NOTE: this region encapsulates all notes visually confined within its bounds; you can draw this region to encapsulate several measures at a time without going the width of the line of measures. From there you can copy, cut, delete. You can also drag this region to the desired measure; the rectangular region will then disappear.
 
@@ -75,10 +75,10 @@ Break. Hover over the desired measure index, press CTRL+B and send the rest of t
 ALT+F:
 Special measure filter. I never finished this and don't remember what it does. PLEASE DO NOT USE THIS, I AM NOT SURE WHAT EFFECT IT WILL HAVE ON YOUR FILES OR THE PROGRAM.
 
-------------SYSTEM MINIMUM REQUIREMENTS------------
+# SYSTEM MINIMUM REQUIREMENTS
 OS: Windows 7, Windows 8, or Windows 10 (Vista and XP might work too idk)
 Graphics: Any capable of OpenGL 2.1 (Any computer with hardware past 2010 should work)
 
 
-------------UPDATES------------
+# UPDATES
 There will be no updates to this program. However it is very likely I will work on a newer and more robust version of the same program called MPOverviewer that may be released in the future.
