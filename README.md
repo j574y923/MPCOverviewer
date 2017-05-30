@@ -81,6 +81,7 @@ Special measure filter. I never finished this and don't remember what it does. P
 
 # SYSTEM MINIMUM REQUIREMENTS
 OS: Windows 7, Windows 8, or Windows 10 (Vista and XP might work too idk)
+
 Graphics: Any capable of OpenGL 2.1 (Any computer with hardware past 2010 should work)
 
 
