@@ -60,6 +60,9 @@ Paste. Hover over your desired measure index. Whatever's copied gets pasted. The
 I:
 Insert. Hover over your desired measure index. Whatever's copied gets pasted. The notes get pasted BETWEEN the existing notes if there are any. This is like a text editor where your text gets pasted in between.
 
+SHIFT+BACKSPACE:
+opposite of insert. HIGHLIGHT a region and do it. it will move everything right of that region to the left in its place. This can span multiple lines and stuff, very useful.
+
 -(MINUS):
 Volume down. Hover over your desired measure index. Press '-' and the volume goes down.
 
